@@ -1,0 +1,43 @@
+@import "generales";
+@import "../recursos/colores";
+// ----------------------------------
+// ----------------------------------
+// ----------------------------------
+.footer {
+    background: red;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    // display: none;
+}
+
+// .grid-menu-footer {
+//     // display: grid;
+//     // grid-template-columns: 1fr;
+//     // grid-template-rows: 70px;
+//     // grid-area: "productos cientes ventas resultados"
+// }
+// .btn-Productos {
+//     grid-area: productos;
+// }
+// .btn-Clientes {
+//     grid-area: cientes;
+// }
+// .btn-Ventas {
+//     grid-area: ventas;
+// }
+// .btn-Resultados {
+//     grid-area: resultados;
+// }
+.grid-menu-footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    float: left;
+    justify-items: center;
+    align-content: center;
+    // padding: 20px 80px;
+}

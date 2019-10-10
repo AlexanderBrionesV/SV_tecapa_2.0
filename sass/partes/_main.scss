@@ -1,0 +1,13 @@
+@import"../recursos/colores";
+$cl-bg:$diaPanel;
+main {
+    padding-top: 70px;
+    article {
+        // background: $cl-bg;
+        background: rgba(tomato, .3);
+        ;
+        margin: 20px 0;
+        padding: 20px;
+        height: 1000px;
+    }
+}

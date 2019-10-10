@@ -1,0 +1,86 @@
+@import "../partes/generales";
+@import "../recursos/colores";
+.menu {
+    // height: 40px;
+    background: $noche;
+    // background: red;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    .contenedor-botones-menu {
+        display: none;
+        margin: auto;
+        width: 90%;
+        max-width: 1200px;
+        // ----------------------
+        // display: flex;
+        justify-content: space-between;
+        button {
+            font-size: $size-icon;
+            color: $diaPanel;
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            background: none;
+            &:hover {
+                border: 1px solid rgba(white, .4);
+            }
+        }
+        .btn-cerrar-h {
+            display: none;
+        }
+        .btn-cerrar-h.activo {
+            display: inline-block;
+        }
+    }
+    .cont-enlaces-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav {
+            float: left;
+            .ul-padre {
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                grid-gap: 10px;
+                float: left;
+                align-items: center;
+                padding: 0;
+                // justify-items: center;
+                .list-padre {
+                    float: left;
+                    list-style: none;
+                    // a {
+                    //     display: block;
+                    // }
+                    .ul-hijo {
+                        display: none;
+                        // padding-top: 30px;
+                        background: $diaLetra;
+                        padding: 20px 0 20px 0;
+                        border-radius: 4px;
+                        .list-hijo {
+                            display: none;
+                            // display: block;
+                            // background: $noche;
+                            // a {}
+                            a {
+                                display: block;
+                            }
+                        }
+                    }
+                    &:hover .ul-hijo {
+                        // background: greenyellow;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; //91vh;
+}

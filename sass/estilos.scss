@@ -1,0 +1,24 @@
+// ----------------------------------
+// -------- P A R T E S -------------
+// ----------------------------------
+@import "partes/generales";
+@import "partes/header";
+@import "partes/main";
+@import "partes/footer";
+// ----------------------------------
+// ------ R E C U R S O S -----------
+// ----------------------------------
+@import "recursos/colores";
+// ----------------------------------
+// ----------------------------------
+@media(max-width:650px) {
+    .el-header-endiv {
+        display: none;
+    }
+}
+
+@media(min-width:650px) {
+    .el-footer-endiv {
+        display: none;
+    }
+}
