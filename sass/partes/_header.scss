@@ -1,4 +1,4 @@
-@import "../partes/generales";
+@import "../recursos/generales";
 @import "../recursos/colores";
 .menu {
     // height: 40px;
@@ -34,6 +34,7 @@
     }
     .cont-enlaces-nav {
         display: flex;
+        // background: red;
         justify-content: space-between;
         align-items: center;
         .nav {
@@ -59,8 +60,8 @@
                         padding: 20px 0 20px 0;
                         border-radius: 4px;
                         .list-hijo {
-                            display: none;
-                            // display: block;
+                            // display: none;
+                            display: block;
                             // background: $noche;
                             // a {}
                             a {
@@ -69,8 +70,11 @@
                         }
                     }
                     &:hover .ul-hijo {
-                        // background: greenyellow;
                         display: block;
+                        width: 150%;
+                    }
+                    &:hover {
+                        padding: 0 3.5em 0 0;
                     }
                 }
             }

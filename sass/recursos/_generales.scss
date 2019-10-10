@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+@import"colores";
+body {
+    // background: #FAfdfd;
+    margin: 0;
+    padding: 0;
+    min-width: 350px;
+    font-family: $lt-fina, $lt-gruesa, Arial, Helvetica, sans-serif;
+    // background: $bg-fond;
+    background: #f6f8f9;
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    // min-width: 340px;
+}
+
+$size-icon:20px;
+$size-img:30px;
+.img-circular {
+    width: $size-img;
+    height: $size-img;
+    border-radius: $size-img/2;
+}
+
+.f-gruesa {
+    font-family: $lt-gruesa;
+    font-weight: 900;
+}
+
+.f-titulo {
+    font-family: $lt-gruesa;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0;
+}
+
+.a-none {
+    text-decoration: none
+}
+
+.txt-enlaces {
+    text-decoration: none;
+    font-family: $lt-gruesa;
+    color: $diaPanel;
+    &:hover {
+        color: $celesteIcono;
+    }
+}
+
+.a-hijo {
+    // justify-content: start;
+    // background: red;
+    padding: .8rem;
+    text-decoration: none;
+    font-family: $lt-fina;
+    font-weight: lighter;
+    color: $diaPanel;
+    &:hover {
+        background: rgba($celesteIcono, 0.2);
+    }
+}
+
+.lt-light {
+    color: $diaPanel;
+}
+
+.bg-light {
+    color: $dia;
+}
+
+.lt-dark {
+    color: $diaLetra;
+}
+
+.bg-dark {
+    color: $noche;
+}
+
+.barrita {
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 5px;
+        background: $celesteIcono;
+        position: absolute;
+        left: 50%;
+        bottom: -17px;
+        transition: all .3s;
+        align-items: center;
+    }
+    &:hover:before {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.center-v {
+    display: flex;
+    align-items: center;
+}
+
+.pad-5 {
+    padding: 5px
+}
+
+svg {
+    width: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    margin: 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.display-center-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-b-center-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-center-V {
+    display: flex;
+    align-items: center;
+    // justify-items: center;
+    background: red;
+}
+
+.bg-blanco {
+    background: $diaPanel;
+    border-radius: .45em;
+    padding: 2em 0 2em 0;
+    margin: 1em auto auto auto;
+}

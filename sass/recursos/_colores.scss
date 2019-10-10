@@ -11,6 +11,7 @@ $negro332: #343638;
 $negro333: #202124;
 $humo:#F1F2F2;
 $humoOscuro:#CBD0D3;
+$bg-fondo:#f6f8f9;
 // -----------------head-----------
 $rosaNo: #FFA5B3;
 $rojoNo: rgb(231, 17, 17);
@@ -29,7 +30,14 @@ $diaLetra: #15171a;
 // ----------------------------------
 // ----------------------------------
 // ----------------------------------
-$lt-fina:'Montserrat',
+$lt-fina: 'Poppins',
 sans-serif;
 $lt-gruesa:'Work Sans',
 sans-serif;
+.amarillo {
+    background: $amarilloClient;
+}
+
+.verde {
+    background: $verdeSialto;
+}

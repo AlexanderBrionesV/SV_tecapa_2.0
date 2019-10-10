@@ -1,7 +1,7 @@
 // ----------------------------------
 // -------- P A R T E S -------------
 // ----------------------------------
-@import "partes/generales";
+// @import "partes/generales";
 @import "partes/header";
 @import "partes/main";
 @import "partes/footer";
@@ -9,6 +9,12 @@
 // ------ R E C U R S O S -----------
 // ----------------------------------
 @import "recursos/colores";
+@import "recursos/generales";
+// ----------------------------------
+// ------  P A G I N A S ------------
+// ----------------------------------
+@import "paginas/Clientes";
+@import "paginas/ventas";
 // ----------------------------------
 // ----------------------------------
 @media(max-width:650px) {

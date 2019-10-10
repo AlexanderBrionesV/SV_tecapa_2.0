@@ -1,0 +1,22 @@
+h4 {
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+
+.existente {
+    &:hover~.buscar-existente {
+        display: block;
+    }
+}
+
+form .buscar-existente {
+    display: none;
+    // background: red;
+}
+
+.elegir-Producto {
+    // padding: -2em 0 0 0;
+    svg {
+        margin: 0 .2em 0 .3em;
+    }
+}
