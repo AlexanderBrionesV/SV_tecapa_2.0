@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +6,23 @@
 
 ul {
   list-style: none; }
+
+h3 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.09em; }
+
+h4 {
+  font-size: 18px;
+  font-weight: 500; }
+
+.boton {
+  font-size: 14px; }
+
+header span {
+  font-size: 17px;
+  letter-spacing: 0.095em;
+  font-weight: 400; }
 
 .amarillo {
   background: #FFE600; }
@@ -307,6 +323,23 @@ main {
 ul {
   list-style: none; }
 
+h3 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.09em; }
+
+h4 {
+  font-size: 18px;
+  font-weight: 500; }
+
+.boton {
+  font-size: 14px; }
+
+header span {
+  font-size: 17px;
+  letter-spacing: 0.095em;
+  font-weight: 400; }
+
 .amarillo {
   background: #FFE600; }
 
@@ -457,9 +490,6 @@ button {
   width: 100%;
   margin-bottom: 20px; }
 
-.añadir {
-  display: none; }
-
 section {
   width: 100%;
   height: 100%; }
@@ -486,7 +516,6 @@ section {
         margin: 0;
         padding: 5px 20px;
         border-radius: 5px;
-        font-size: 17px;
         -ms-flex-line-pack: center;
         align-content: center; }
         section .lista-contenedor .navegador .boton span:nth-child(1) {
@@ -508,7 +537,6 @@ section {
     margin: 0;
     padding: 5px 20px;
     border-radius: 5px;
-    font-size: 17px;
     -ms-flex-line-pack: center;
     align-content: center; }
     .navegador .boton span:nth-child(1) {
@@ -525,7 +553,6 @@ form {
   margin: auto;
   width: 90%; }
   form h3 {
-    font-size: 22px;
     text-align: center; }
   form .lb-form {
     font-family: Arial, Helvetica, sans-serif;
@@ -566,7 +593,8 @@ form {
     width: 15px; }
 
 .editar {
-  margin: 2em 0 0 0; }
+  margin: 2em 0 0 0;
+  display: none; }
 
 @media (min-width: 716px) {
   body {
@@ -584,6 +612,27 @@ form .buscar-existente {
 
 .elegir-Producto svg {
   margin: 0 .2em 0 .3em; }
+
+.contedor-detalle-producto-venta {
+  background: #f1f2f2;
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px; }
+  .contedor-detalle-producto-venta header {
+    padding: 0 0 8px 0 0; }
+    .contedor-detalle-producto-venta header .h5 {
+      padding: 0 0 8px 0 0; }
+  .contedor-detalle-producto-venta .cantidad p {
+    margin: 0 .8em 0 0; }
+  .contedor-detalle-producto-venta .cantidad .selecciona-u {
+    border-radius: 3px;
+    border: 0;
+    width: 20%; }
+  .contedor-detalle-producto-venta .cantidad .cantidad-unidad {
+    border-radius: 3px;
+    border: 0;
+    width: 15%; }
 
 @media (max-width: 650px) {
   .el-header-endiv {

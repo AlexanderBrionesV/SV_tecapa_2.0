@@ -20,3 +20,32 @@ form .buscar-existente {
         margin: 0 .2em 0 .3em;
     }
 }
+
+.contedor-detalle-producto-venta {
+    background: #f1f2f2;
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    header {
+        padding: 0 0 8px 0 0;
+        .h5 {
+            padding: 0 0 8px 0 0;
+        }
+    }
+    .cantidad {
+        p {
+            margin: 0 .8em 0 0;
+        }
+        .selecciona-u {
+            border-radius: 3px;
+            border: 0;
+            width: 20%;
+        }
+        .cantidad-unidad {
+            border-radius: 3px;
+            border: 0;
+            width: 15%;
+        }
+    }
+}

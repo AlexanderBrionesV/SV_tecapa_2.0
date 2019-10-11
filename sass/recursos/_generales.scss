@@ -8,6 +8,30 @@ ul {
     list-style: none;
 }
 
+h3 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    // color: red;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.boton {
+    font-size: 14px;
+}
+
+header {
+    span {
+        font-size: 17px;
+        letter-spacing: 0.095em;
+        font-weight: 400;
+    }
+}
+
 @import"colores";
 body {
     // background: #FAfdfd;
